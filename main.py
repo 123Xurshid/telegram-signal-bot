@@ -9,7 +9,7 @@ bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=["start"])
 def start_message(message):
-    bot.send_message(message.chat.id, "🇺🇿 Assalomu alaykum! 📈 Signal bot ishga tushdi.
-🇷🇺 Здравствуйте! Бот сигналов запущен.")
+    bot.send_message(message.chat.id, "🇺🇿 Assalomu alaykum! 📈 Signal bot ishga tushdi.\n🇷🇺 Здравствуйте! Бот сигналов запущен.")
+    🇷🇺 Здравствуйте! Бот сигналов запущен.")
 
 bot.polling()
